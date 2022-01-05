@@ -75,6 +75,7 @@
         $("#B").click(function(){
             next(); //점수 저장은 되지 않지만 다음 문제로 넘어갈 수 있도록
         });
+
         function next() {
             if (num == 13) {
                 $(".question").hide();
@@ -85,7 +86,8 @@
                 ($("#SN").val() < 2) ? mbti+="N" : mbti+="S";
                 ($("#TF").val() < 2) ? mbti+="F" : mbti+="T";
                 ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
-                alert(mbti);
+                // alert(mbti);
+
             $("#img").attr('src', result[mbti]["img"]);
             $("#animal").html(result[mbti]["animal"]);
             $("#explain").html(result[mbti["explain"]]);
