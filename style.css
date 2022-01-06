@@ -1,3 +1,15 @@
+* {
+    background-color: black;
+    color: orange;
+    font-family: 'Poor Story', cursive;
+}
+
+body {
+    background-color: black;
+    color: orange;
+    font-family: 'Poor Story', cursive;
+}
+
 article {
     display: flex;
     flex-direction: column;

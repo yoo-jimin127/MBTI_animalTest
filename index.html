@@ -7,6 +7,11 @@
     <title>MBTI 동물 테스트</title>
     <meta name="description" content="나랑 꼭 닮은 세렝게티 동물을 MBTI를 기반으로 추천해주는 테스트입니다.">
 
+    <!-- 폰트 적용 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+
     <meta property="og:type" content="website"> 
     <meta property="og:title" content="MBTI 동물 테스트">
     <meta property="og:description" content="나랑 꼭 닮은 세렝게티 동물을 MBTI를 기반으로 추천해주는 테스트입니다.">
@@ -109,9 +114,9 @@
                 ($("#JP").val() < 2) ? mbti+="P" : mbti+="J";
                 // alert(mbti);
 
-            $("#img").attr('src', result[mbti]["img"]);
-            $("#animal").html(result[mbti]["animal"]);
-            $("#explain").html(result[mbti["explain"]]);
+                $("#img").attr('src', result[mbti]["img"]);
+                $("#animal").html(result[mbti]["animal"]);
+                $("#explain").html(result[mbti["explain"]]);
             } else {
                 $(".progress-bar").attr('style','width: calc(100/12*'+num+'%)');
                 $("#title").html(q[num]["title"]);
