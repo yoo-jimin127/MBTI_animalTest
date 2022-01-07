@@ -10,6 +10,22 @@ body {
     font-family: 'Poor Story', cursive;
 }
 
+.startbtn {
+    width: 400px;
+    height: 80px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.questionbtn {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 article {
     display: flex;
     flex-direction: column;
@@ -31,6 +47,13 @@ article {
 
 .share {
     margin: 0 auto;
+}
+
+.sns-message {
+    margin: 0 auto;
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: 100;
 }
 
 .kakao_ad {
