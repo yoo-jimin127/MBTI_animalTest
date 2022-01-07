@@ -11,8 +11,8 @@ body {
 }
 
 .startbtn {
-    width: 400px;
-    height: 80px;
+    width: 300px;
+    height: 50px;
     margin: 0 auto;
     font-weight: bold;
     font-size: 20px;
@@ -39,10 +39,37 @@ article {
     display: none;
 }
 
+.main-img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
 #img {
     width: 300px;
     height: 300px;
     margin: 0 auto;
+}
+
+.result-title {
+    font-weight: 700;
+}
+
+.result-animal {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+hr {
+    border-top: 2px dashed white;
+    background-color: white;
+}
+
+.result-explain {
+    font-size: 15px;
+    line-height: 160%;
+    font-weight: normal;
 }
 
 .share {
@@ -51,7 +78,7 @@ article {
 
 .sns-message {
     margin: 0 auto;
-    color:#ffffff;
+    color: lightgray;
     font-size: 24px;
     font-weight: 100;
 }
