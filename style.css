@@ -4,6 +4,10 @@
     font-family: 'Poor Story', cursive;
 }
 
+.main-text {
+    font-size: 25px;
+}
+
 body {
     background-color: black;
     color: orange;
@@ -18,12 +22,16 @@ body {
     font-size: 20px;
 }
 
+.question-text {
+    font-size: 20px;
+}
+
 .questionbtn {
-    width: 500px;
+    width: 300px;
     height: 100px;
     margin: 0 auto;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 article {
